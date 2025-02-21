@@ -2,11 +2,11 @@
 A collection of working programs intended as examples for how to use the [aslib](https://https://github.com/yousabmenissy/aslib) library.
 
 ## Index
-- [echo](https://https://github.com/yousabmenissy/aslib/echo)
-- [kill](https://https://github.com/yousabmenissy/aslib/kill)
-- [mkdir](https://https://github.com/yousabmenissy/aslib/mkdir)
-- [rm](https://https://github.com/yousabmenissy/aslib/rm)
-- [sum](https://https://github.com/yousabmenissy/aslib/sum)
+- [echo](https://https://github.com/yousabmenissy/aslib/tree/main/echo)
+- [kill](https://https://github.com/yousabmenissy/aslib/tree/main/kill)
+- [mkdir](https://https://github.com/yousabmenissy/aslib/tree/main/mkdir)
+- [rm](https://https://github.com/yousabmenissy/aslib/tree/main/rm)
+- [sum](https://https://github.com/yousabmenissy/aslib/tree/main/sum)
 
 ## Formatting
 These programs use the autoformatter [cur](https://https://github.com/yousabmenissy/aslib).
