@@ -132,7 +132,7 @@ printf: # printf(fd, fmt, args...)
 
     popq   %r8
     testq  %rax, %rax
-    js     3f              # TODO add error handling
+    js     3f              
     decq   %rax
     addq   %rax, -48(%rbp)
     jmp    .LPPRINTF0
@@ -144,7 +144,6 @@ printf: # printf(fd, fmt, args...)
     cmpb  $'.', 1(%rdx)
     jne   9f
 
-    # TODO add error handling
     xor   %rax, %rax
     movb  2(%rdx), %al
     cmpb  $'0', %al
@@ -166,7 +165,7 @@ printf: # printf(fd, fmt, args...)
     popq   %r8
 
     testq  %rax, %rax
-    js     3f              # TODO add error handling
+    js     3f              
     addq   %rax, -48(%rbp)
     jmp    .LPPRINTF0
 

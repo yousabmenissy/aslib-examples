@@ -17,9 +17,9 @@ rrm: # rrm(str)
     testq    %rax, %rax
     jns      1f
 
-    movq    -8(%rbp), %rdi
+    movq  -8(%rbp), %rdi
     UNLINK
-    jmp     2f
+    jmp   2f
 
     1:
     movq    -8(%rbp), %rsi
@@ -125,7 +125,7 @@ rrmdir: # rrmdir(dirfd)
     jmp  .LPRRM0
 
     3:
-    popq   %rbx
+    popq  %rbx
     leave
     ret
 

@@ -1,4 +1,3 @@
-# TODO Add error handling 
 .include "aslib/aslib.s"
 
 .section .text
